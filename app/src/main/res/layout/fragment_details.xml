@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.neighbour_list.DetailsFragment"
+    android:orientation="vertical"
+    android:background="@color/bg_grey"
+    android:id="@+id/details_fragment"
+    >
+<ImageView
+    android:id="@+id/details_fragment_image"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:src="@drawable/ic_account"
+    android:adjustViewBounds="true"
+    android:scaleType="fitXY"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:contentDescription="@string/details_fragment_image"
+    />
+
+    <ImageView
+        android:id="@+id/details_fragment_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_back24px" />
+
+    <TextView
+        android:id="@+id/details_fragment_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/fragment_details_profile_name"
+        android:textSize="32sp"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="@id/details_fragment_image"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/details_fragment_floating_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:contentDescription="@string/details_fragment_floating_button"
+        app:layout_constraintTop_toBottomOf="@+id/details_fragment_image"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/details_fragment_cardview_info"
+        android:layout_marginRight="15dp"
+        android:clickable="true"
+        android:src="@drawable/ic_star_border_white_24dp"
+        app:backgroundTint="@color/wht_background"
+        android:focusable="true"
+       />
+
+
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/details_fragment_cardview_info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="6dp"
+    android:orientation="vertical"
+    app:layout_constraintTop_toBottomOf="@+id/details_fragment_image"
+    app:layout_constraintStart_toStartOf="parent"
+    android:layout_margin="@dimen/text_margin"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+             <TextView
+                android:id="@+id/details_fragment_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragment_details_profile_name"
+                 android:padding="10dp"
+                 android:textSize="24sp"
+                 android:textColor="@android:color/black"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/bg_grey" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/details_frament_image_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/appbar_padding_top"
+            android:src="@drawable/ic_location_pink_24dp"
+            app:tint="@color/colorAccent"
+            android:layout_marginTop="@dimen/details_margin_top"
+            app:layout_constraintBottom_toTopOf="@id/details_fragment_phone_image"
+            app:layout_constraintRight_toLeftOf="@id/details_fragment_adress_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/details_fragment_adress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/appbar_padding_top"
+            android:text="@string/details_fragment_adress"
+            android:textSize="@dimen/text_size_info"
+            android:layout_marginTop="@dimen/details_margin_top"
+            app:layout_constraintBottom_toTopOf="@id/details_fragment_phone_text"
+            app:layout_constraintStart_toEndOf="@id/details_frament_image_address"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/details_fragment_phone_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/appbar_padding_top"
+            android:src="@drawable/ic_phone_24dp"
+            app:tint="@color/colorAccent"
+            android:layout_marginTop="@dimen/details_margin_top"
+            app:layout_constraintBottom_toTopOf="@id/details_fragment_facebook_image"
+            app:layout_constraintRight_toLeftOf="@id/details_fragment_phone_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/details_frament_image_address"
+            tools:targetApi="m" />
+
+        <TextView
+            android:id="@+id/details_fragment_phone_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/appbar_padding_top"
+            android:text="@string/details_fragment_phone"
+            android:textSize="@dimen/text_size_info"
+            android:layout_marginTop="@dimen/details_margin_top"
+            app:layout_constraintBottom_toTopOf="@id/details_fragment_facebook_text"
+            app:layout_constraintStart_toEndOf="@id/details_fragment_phone_image"
+            app:layout_constraintTop_toBottomOf="@id/details_fragment_adress_text" />
+
+        <ImageView
+            android:id="@+id/details_fragment_facebook_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/appbar_padding_top"
+            android:src="@drawable/ic_fb_24dp"
+            app:tint="@color/colorAccent"
+            android:layout_marginTop="@dimen/details_margin_top"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/details_fragment_facebook_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/details_fragment_phone_image" />
+
+        <TextView
+            android:id="@+id/details_fragment_facebook_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/appbar_padding_top"
+            android:text="@string/details_fragment_facebook"
+            android:textSize="@dimen/text_size_info"
+            android:layout_marginTop="@dimen/details_margin_top"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/details_fragment_facebook_image"
+            app:layout_constraintTop_toBottomOf="@id/details_fragment_phone_text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+<androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/text_margin"
+        app:cardCornerRadius="6dp"
+        app:layout_constraintTop_toBottomOf="@+id/details_fragment_cardview_info"
+        app:layout_constraintStart_toStartOf="@id/details_fragment_cardview_info"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a_propos_demoi"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/bg_grey" />
+
+        <ScrollView
+            android:id="@+id/textAreaScroller"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_x="0dp"
+            android:layout_y="25dp"
+            android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/details_fragment_description"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_details_description"
+            android:padding="10dp"
+            android:textSize="12sp"
+
+            />
+
+        </ScrollView>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Entrevoisins</string>
+    <string name="tab_neighbour_title">My neighbours</string>
+    <string name="tab_favorites_title">Favorites</string>
+    <string name="activity_new_neighbour">New neighbour</string>
+    
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview_name_for_test">Caroline</string>
+    <string name="fragment_details_profile_name">Your Name</string>
+    <string name="fragment_details_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel finibus leo, pharetra porttitor risus. Donec dolor sem, tincidunt at suscipit blandit, viverra at tortor. Cras mattis metus eu libero interdum consequat.</string>
+
+    <!-- details info text -->
+    <string name="details_fragment_adress">Adresse</string>
+    <string name="details_fragment_phone">Phone</string>
+    <string name="details_fragment_facebook">Facebook Link</string>
+
+    <!-- Set content description fragment_neighbour -->
+    <string name="item_list_avatar">Avatar item</string>
+    <string name="item_list_delete_button">delete button</string>
+
+    <!-- Set content description fragment_details -->
+    <string name="details_fragment_floating_button">floating button details fragment</string>
+    <string name="details_fragment_image">details fragment image</string>
+    <string name="a_propos_demoi">a propos de moi</string>
+
+
+    <!-- Set content description activity_list_neighbour -->
+    <string name="add_neighbour">add neighbour</string>
+    <string name="container">container</string>
+
+    <!-- Set content description activity_add_neighbour -->
+    <string name="name">name</string>
+    <string name="phone_number">phone number</string>
+    <string name="address">addresse</string>
+    <string name="about_me">about me</string>
+    <string name="save">save new neighour </string>
+    <string name="content_description_avatar">avatar</string>
+
+
+</resources>
