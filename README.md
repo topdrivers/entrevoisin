@@ -8,6 +8,8 @@ Et cliquez sur le boutton clone or download:
 ## **2 -** Si besoin Télécharger Android Studio 
 Télécharger Android Studio à l'adresse **https://developer.android.com/studio/?gclid=CjwKCAjwzdLrBRBiEiwAEHrAYlRMK-F1MuL4YASq_n9WskOl4XbUKdjzOv3SHLzIaZGrU4y5lzN5uhoCe38QAvD_BwE.**
 
+https://top-drivers.fr/asset/img/fav-icon.jpeg"
+
 ## **3 -** Au lancement d'Android Studio. 
 Cliquez sur "Check out project from version control" et selectionnez Git :
 ![Screenshot](screenshot2.png)
