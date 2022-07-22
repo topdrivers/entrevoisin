@@ -7,7 +7,7 @@ Et cliquez sur le boutton clone or download:
 
 ![stack Overflow](http://lmsotfy.com/so.png)
 
-![stack Overflow]([url-to-image](https://github.com/topdrivers/entrevoisin/blob/master/Image1.jpg))
+![Github]([url-to-image](https://github.com/topdrivers/entrevoisin/blob/master/Image1.jpg))
 
 ## **2 -** Si besoin Télécharger Android Studio 
 Télécharger Android Studio à l'adresse **https://developer.android.com/studio/?gclid=CjwKCAjwzdLrBRBiEiwAEHrAYlRMK-F1MuL4YASq_n9WskOl4XbUKdjzOv3SHLzIaZGrU4y5lzN5uhoCe38QAvD_BwE.**
