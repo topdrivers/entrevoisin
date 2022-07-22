@@ -24,7 +24,7 @@ Cliquez sur "Check out project from version control" et selectionnez Git :
 
 ## **5 -** Attendre la fin de la compilation du projet Android. 
 Ceci peut prendre quelque minutes...
-![github]([url-to-image](https://github.com/topdrivers/entrevoisin/blob/master/Image1.jpg))
+![github](https://github.com/topdrivers/entrevoisin/blob/master/Image1.jpg)
 
 ## **6 -** Sélectionnez un Emulateur puis éxécutez le projet 
 A l'aide du boutton run d'android studio dans la bare d'outils.
