@@ -5,6 +5,8 @@ Depuis l'adresse Github **https://github.com/vincent582/EntreVoisins/**.
 Et cliquez sur le boutton clone or download:
 ![Screenshot](screenshot.png)
 
+![stack Overflow](http://lmsotfy.com/so.png)
+
 ## **2 -** Si besoin Télécharger Android Studio 
 Télécharger Android Studio à l'adresse **https://developer.android.com/studio/?gclid=CjwKCAjwzdLrBRBiEiwAEHrAYlRMK-F1MuL4YASq_n9WskOl4XbUKdjzOv3SHLzIaZGrU4y5lzN5uhoCe38QAvD_BwE.**
 
