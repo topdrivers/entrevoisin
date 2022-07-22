@@ -7,7 +7,7 @@ Et cliquez sur le boutton clone or download:
 
 ![stack Overflow](http://lmsotfy.com/so.png)
 
-![Github]([url-to-image](https://github.com/topdrivers/entrevoisin/blob/master/Image1.jpg))
+
 
 ## **2 -** Si besoin Télécharger Android Studio 
 Télécharger Android Studio à l'adresse **https://developer.android.com/studio/?gclid=CjwKCAjwzdLrBRBiEiwAEHrAYlRMK-F1MuL4YASq_n9WskOl4XbUKdjzOv3SHLzIaZGrU4y5lzN5uhoCe38QAvD_BwE.**
@@ -24,6 +24,7 @@ Cliquez sur "Check out project from version control" et selectionnez Git :
 
 ## **5 -** Attendre la fin de la compilation du projet Android. 
 Ceci peut prendre quelque minutes...
+![github]([url-to-image](https://github.com/topdrivers/entrevoisin/blob/master/Image1.jpg))
 
 ## **6 -** Sélectionnez un Emulateur puis éxécutez le projet 
 A l'aide du boutton run d'android studio dans la bare d'outils.
